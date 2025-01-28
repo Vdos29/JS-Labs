@@ -1,0 +1,77 @@
+
+### Day 2: Variables and Data Types
+
+#### Overview
+On Day 2, you will learn how to declare and use variables in Java, understand different data types, and perform basic operations. Variables are fundamental in programming as they allow you to store and manipulate data.
+
+---
+
+#### Lecture Content
+
+### What are Variables?
+Variables are named containers used to store data in memory. In Java, every variable has a type that determines what kind of data it can hold.
+
+### Key Terms:
+1. **Primitive Data Types**:
+   - `int`: Stores integers (e.g., 10, -5).
+   - `double`: Stores decimal numbers (e.g., 3.14, -0.99).
+   - `boolean`: Stores `true` or `false`.
+   - `char`: Stores a single character (e.g., 'A', 'z').
+2. **Non-Primitive Data Types**:
+   - `String`: Stores a sequence of characters (e.g., "Hello").
+
+---
+
+#### Tasks:
+1. **Declare and Initialize Variables**:
+   - Write a program that declares variables of different types and prints their values.
+
+---
+
+#### Sample Code:
+```java
+public class VariablesDemo {
+    public static void main(String[] args) {
+        int age = 25; // Integer variable
+        double price = 19.99; // Decimal variable
+        boolean isJavaFun = true; // Boolean variable
+        char grade = 'A'; // Character variable
+        String name = "Alice"; // String variable
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Price: $" + price);
+        System.out.println("Is Java fun? " + isJavaFun);
+        System.out.println("Grade: " + grade);
+    }
+}
+```
+
+---
+
+#### Explanation of Code:
+1. **`int age = 25;`**:
+   - Declares an integer variable `age` and assigns it the value 25.
+2. **`double price = 19.99;`**:
+   - Declares a decimal variable `price` and assigns it the value 19.99.
+3. **`boolean isJavaFun = true;`**:
+   - Declares a boolean variable `isJavaFun` and assigns it the value `true`.
+4. **`char grade = 'A';`**:
+   - Declares a character variable `grade` and assigns it the value 'A'.
+5. **`String name = "Alice";`**:
+   - Declares a string variable `name` and assigns it the value "Alice".
+
+---
+
+#### Practice Tasks:
+1. Add a new variable for your favorite color and print it.
+2. Modify the program to calculate the total price of three items using `double` variables.
+3. Experiment by changing the values of the variables and observe how the output changes.
+
+---
+
+#### Outcome:
+By the end of this lesson, you will:
+1. Understand how to declare and initialize variables.
+2. Know the difference between primitive and non-primitive data types.
+3. Be able to write a program that uses variables to store and display information.
